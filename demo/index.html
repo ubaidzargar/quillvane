@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quillvane PDF Flipbook demo</title>
+<style>body{font-family:system-ui,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;color:#222}code{background:#f2f2f2;padding:2px 5px;border-radius:3px}h2{margin-top:48px}</style>
+<script src="../dist/quillvane.js"></script>
+</head>
+<body>
+<h1>Quillvane PDF Flipbook</h1>
+<p>The PDF below is a made-up sample magazine.</p>
+
+<h2>Inline</h2>
+<quillvane-flipbook id="inline" src="harbor-and-hill-demo.pdf" title="Harbor &amp; Hill: Autumn 2026">
+	<a href="harbor-and-hill-demo.pdf">Open the PDF</a>
+</quillvane-flipbook>
+
+<h2>Popup with a cover</h2>
+<quillvane-flipbook id="popup" src="harbor-and-hill-demo.pdf" title="Harbor &amp; Hill" popup></quillvane-flipbook>
+
+<h2>Button, one page, no download, custom colour</h2>
+<quillvane-flipbook id="button" src="harbor-and-hill-demo.pdf" popup button="Read the magazine" layout="single" download="no" accent="#e76f51"></quillvane-flipbook>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "quillvane",
+  "version": "1.0.0",
+  "description": "Show any PDF as a page-turning flipbook on any website, with one HTML tag. Search, thumbnails, zoom, full screen, deep links.",
+  "main": "dist/quillvane.js",
+  "browser": "dist/quillvane.js",
+  "jsdelivr": "dist/quillvane.js",
+  "unpkg": "dist/quillvane.js",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node build.mjs && node test/browser-test.mjs"
+  },
+  "keywords": ["pdf", "flipbook", "pdf-viewer", "web-component", "custom-element", "pdfjs", "magazine", "ebook"],
+  "license": "MIT",
+  "author": "Yasir Altaf Zargar"
+}
