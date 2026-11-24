@@ -1,4 +1,4 @@
-/*! Quillvane PDF Flipbook 1.0.0 | MIT License | https://github.com/ | Uses PDF.js (Apache-2.0) from jsDelivr */
+/*! Quillvane PDF Flipbook 1.0.0 | MIT License | https://github.com/ubaidzargar/quillvane | Uses PDF.js (Apache-2.0) from jsDelivr */
 (function () {
 	'use strict';
 	// Settings can be set before this script: window.quillvanePdfFlipbook = { pdfjs, worker, pdfjsLegacy, workerLegacy, i18n, noCss }.
